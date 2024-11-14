@@ -25,7 +25,9 @@ const Cart = require("./models/cartModel");
 const orderStatusRouter = require("./routes/order-status-router");
 
 mongoose
-  .connect("mongodb://localhost:27017")
+  .connect(
+    "mongodb+srv://shaheedha:NCLK2A8m7DBnwOg5@cluster0.xjyh3nx.mongodb.net/cake-shop?retryWrites=true&w=majority"
+  )
   .then(() => {
     console.log("Database Connected");
   })
