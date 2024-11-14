@@ -1,0 +1,36 @@
+{
+  "name": "cake",
+  "version": "1.0.0",
+  "description": "A feature-rich E-commerce website for cakes & bakes, made with NodeJS in the backend, EJS in the frontend, and MongoDB as the database. ### Features includes: In user side, - Registration & verification - Product list - Wishlist - Cart - Order placement - Order history <br>",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "dropzone": "^6.0.0-beta.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.2.0",
+    "mongoose": "^6.13.0",
+    "multer": "^1.4.5-lts.1",
+    "nocache": "^3.0.4",
+    "nodemailer": "^6.7.7",
+    "otp-generator": "^4.0.0",
+    "path": "^0.12.7",
+    "razorpay": "^2.8.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "keywords": []
+}
